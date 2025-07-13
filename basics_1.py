@@ -1,0 +1,5 @@
+print ("Ile pączków dzisiaj zjadłeś/aś/oś, ty potworze?")
+paczki = int(input())
+print ("A ile kalorii ma jeden pączek? (Podaj z kropką, yś)")
+kcal = float(input())
+print (f"No to dzisiaj wjechało {paczki * kcal} kcal. Jutro cardio, bestie!")

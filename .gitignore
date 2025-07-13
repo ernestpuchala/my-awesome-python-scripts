@@ -1,0 +1,25 @@
+# Ignoruj katalogi Pythona
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python/
+build/
+dist/
+
+# Ignoruj katalog środowiska wirtualnego (venv)
+.venv/
+venv/
+env/
+
+# Ignoruj pliki tymczasowe i backupy
+*~
+*.bak
+*.swp
+*.tmp
+.DS_Store # Specyficzne dla macOS
+Thumbs.db # Specyficzne dla Windows
+
+# Ignoruj pliki VS Code (jeśli nie chcesz ich komitować)
+.vscode/
