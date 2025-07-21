@@ -22,9 +22,9 @@ while True:
             print("nie to nie, nara!")
             break 
         elif kontynuuj == 't':
-            print("Ok, lecimy dalej! 💅")
+            print("Ok, lecimy dalej!")
             break
         else:
-            print("Nie rozumiem, gyat! Napisz 't' lub 'n', proszę.")
+            print("Nie rozumiem! Napisz 't' lub 'n', proszę.")
     if kontynuuj == 'n':
         break 

@@ -1,14 +1,10 @@
 def check_input_type(user_input):
     try:
-        # Próbujemy zamienić przecinek na kropkę, bo Python tak lubi
         normalized_input = user_input.replace(',', '.')
-        
-        # Próbujemy przekonwertować na float
         float(normalized_input)
-        return normalized_input # Udało się, slay!
+        return normalized_input
     except ValueError:
-        # Jeśli ValueError się pojawi, to znaczy, że to nie była liczba
-        return print("co to kurde") # Womp womp, to tekst
+        return print("co to kurde")
 
 def wypad():
     print("Jaki jest stan twojego konta? (podaj kwotę)")
