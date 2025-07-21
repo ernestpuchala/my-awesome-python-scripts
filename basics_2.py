@@ -1,4 +1,4 @@
-powiedzonka = ["Vibin'", "Chasing sunsets", "Felt cute, might delete later", "Living my best life", "Just vibing", "Slaying all"]
+powiedzonka = ["Vibin'", "Chasing sunsets", "Felt cute, might delete later", "Living my best life", "Just vibing", "Slay!"]
 def usuwanie():
     print("oto powiedzonka na dziś:")
     for item in powiedzonka:
@@ -7,7 +7,7 @@ def usuwanie():
     cringe = int(input())
     if cringe > 0 and cringe < 7: 
         usunięty_element = powiedzonka.pop(cringe - 1)
-        print(f"okej, wyjebalismy {usunięty_element} powiedzonko")
+        print(f"okej, usunęliśmy {usunięty_element} powiedzonko")
     for item in powiedzonka:
         print(item)
 usuwanie()
